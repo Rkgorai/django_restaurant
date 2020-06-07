@@ -13,9 +13,11 @@ body {
   min-height: 400px; }
 
 .footer {
-  background-color: #D1C4E9;
+  background-color: #222222;
   margin: 0px auto;
-  padding: 20px 0px; }
+  padding: 20px 0px; 
+  color: #ddd;
+}
 
 #header {
   margin: 0px auto;
@@ -157,4 +159,18 @@ body {
   background-color: #000;
   color: #fff;
   opacity: .8;
+}
+
+address {
+  color: #ddd;
+}
+
+#testimonials {
+  font-style: italic;
+}
+#testimonials p:nth-child(2) {
+  margin-top: 25px;
+}
+#address {
+  text-align: center;
 }
