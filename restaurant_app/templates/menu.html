@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Home</title>
+	<title>Menu</title>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 	{% load static %}
@@ -50,9 +50,13 @@
     </header>
 
     <div id="main-content" class="container">
+      <ol class="col-12 breadcrumb">
+        <li class="breadcrumb-item"><a href="/index/">Home</a></li>
+        <li class="breadcrumb-item active">Menu</li>
+      </ol>
         <h2 id="menu-categories-title" class="text-center">Menu</h2>
         <div class="text-center">
-            * Delivery area within 3-4 miles, with minimum order of &#8377;200 plus &#8377;30 charge for all deliveries.
+            <p>* Delivery area within 3-4 miles, with minimum order of &#8377;200 plus &#8377;30 charge for all deliveries.</p>
         </div>
     
         <section class="row">
@@ -181,7 +185,7 @@
                 <div class="col-4 offset-1 col-sm-2">
                     <h5>Links</h5>
                     <ul class="list-unstyled">
-                        <li><a href="#">Home</a></li>
+                        <li><a href="/home/">Home</a></li>
                         <li><a href="/about/">About</a></li>
                         <li><a href="/menu/">Menu</a></li>
                         <li><a href="/contact/">Contact</a></li>

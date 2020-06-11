@@ -165,6 +165,10 @@ address {
   color: #ddd;
 }
 
+#adrs {
+  color: #000;
+}
+
 #testimonials {
   font-style: italic;
 }
